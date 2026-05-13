@@ -15,31 +15,31 @@ export function ServicesSection() {
           }`}
         >
           <h2 className="mb-2 font-sans text-5xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
-            Услуги
+            Программа
           </h2>
-          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Наши компетенции</p>
+          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Чему вы научитесь</p>
         </div>
 
         <div className="grid gap-8 md:grid-cols-2 md:gap-x-16 md:gap-y-12 lg:gap-x-24">
           {[
             {
-              title: "Веб-разработка",
-              description: "Создание современных веб-приложений любой сложности",
+              title: "Нейросети и ChatGPT",
+              description: "Работа с ведущими ИИ-инструментами: генерация текстов, идей, ответов на любые задачи",
               direction: "top",
             },
             {
-              title: "UI/UX Дизайн",
-              description: "Проектирование удобных и красивых интерфейсов",
+              title: "Контент с ИИ",
+              description: "Создание текстового, графического и мультимедийного контента за минуты",
               direction: "right",
             },
             {
-              title: "Мобильные приложения",
-              description: "Кроссплатформенная разработка для iOS и Android",
+              title: "ИИ в маркетинге",
+              description: "Автоматизация рекламы, анализ аудитории, генерация продающих текстов",
               direction: "left",
             },
             {
-              title: "Консалтинг",
-              description: "Техническая экспертиза и стратегическое планирование",
+              title: "Автоматизация",
+              description: "Устранение рутины: боты, скрипты, автоответы — ИИ работает вместо вас",
               direction: "bottom",
             },
           ].map((service, i) => (
